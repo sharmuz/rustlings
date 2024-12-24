@@ -10,8 +10,9 @@ fn trim_me(input: &str) -> String {
 
 fn compose_me(input: &str) -> String {
     // TODO: Add " world!" to the string! There's multiple ways to do this!
-    let suffix = String::from(" world!");
-    String::from(input) + &suffix
+    // let suffix = String::from(" world!");
+    // String::from(input) + &suffix
+    format!("{input} world!")
 }
 
 fn replace_me(input: &str) -> String {
